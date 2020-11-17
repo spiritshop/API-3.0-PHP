@@ -49,7 +49,6 @@ abstract class AbstractRequest
     {
         $headers = [
             'Accept: application/json',
-            'Accept-Encoding: gzip',
             'User-Agent: CieloEcommerce/3.0 PHP SDK',
             'MerchantId: ' . $this->merchant->getId(),
             'MerchantKey: ' . $this->merchant->getKey(),
